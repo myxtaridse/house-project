@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+    
+    
+
+    
+
+    .rewievs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rewievs-top-container {
+        padding: 0 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .rewievs-title-container {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        column-gap: 20px;
+    }
+    .rewievs-title {
+        font-size: 44px;
+    }
+    .wrapper {
+        display: flex;
+        grid-gap: 1em;
+        overflow: hidden;
+        width: 83%;
+    }
+    .wrapper > .inner {
+        display: flex;
+        grid-gap: 1em;
+        transition: all 1s ease-in-out;
+    }
+    .rewiev-section-card {
+        width: 500px;
+        height: 420px;
+    }
+    .rewievs-main {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        align-items: start;
+        justify-content: center;
+        column-gap: 80px;
+    }
+    .rewiev-section {
+        box-shadow: 1px 1px 5px rgba(8, 42, 26, 0.359);
+        padding: 40px 30px;
+        border: 1px solid rgb(224, 217, 217);
+        border-radius: 10px;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+        row-gap: 20px;
+    }
+    .rewiev-title {
+        text-align: center;
+    }
+    .rewiev-autor {
+        font-weight: 500;
+    }
+    
+
+    .map {
+    margin-top: 1em;
+    }
+    .map > button {
+    all: unset;
+    background: rgba(110, 208, 115, 0.553);
+    cursor: pointer;
+    margin: 0 0.125em;
+    position: relative;
+    border-radius: 10px;
+    height: 1em;
+    width: 1em;
+    }
+    .map > button.active {
+    background: rgb(18, 103, 30);
+    }
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="rewievs">
+        <div class="wrapper">
+          <div class="inner">
+            <div class="rewiev-section-card">
+                <div class="rewiev-section">
+                    <h3 class="rewiev-title">СНТ «Шугарово-5» Каркасный дом 115 м2</h3>
+                    <p class="rewiev">
+                        Приносим огромную благодарность за супер
+                        строительство, отличную бригаду строителей,
+                        за шикарные окна, замечательные строительные
+                        материалы. Все произошло быстро, аккуратно,
+                        правильно (а мы боялись). Обязательно
+                        обратимся к вам за строительством бани, 
+                        желательно с этой же бригадой.
+                        Спасибо большое, успехов вам в дальнейшей
+                        работе. Спасибо Вадиму за хорошую консультацию, 
+                        от хорошего консультанта много зависит. 
+                    </p>
+                    <p class="rewiev-autor">Светлана и Михаил</p>
+                </div>
+            </div>
+            <div class="rewiev-section-card">
+                <div class="rewiev-section">
+                    <h3 class="rewiev-title">СНТ «Шугарово-5» Каркасный дом 115 м2</h3>
+                    <p class="rewiev">
+                        Приносим огромную благодарность за супер
+                        строительство, отличную бригаду строителей,
+                        за шикарные окна, замечательные строительные
+                        материалы. Все произошло быстро, аккуратно,
+                        правильно (а мы боялись). Обязательно
+                        обратимся к вам за строительством бани, 
+                        желательно с этой же бригадой.
+                        Спасибо большое, успехов вам в дальнейшей
+                        работе. Спасибо Вадиму за хорошую консультацию, 
+                        от хорошего консультанта много зависит. 
+                    </p>
+                    <p class="rewiev-autor">Светлана и Михаил</p>
+                </div>
+            </div>
+            <div class="rewiev-section-card">
+                <div class="rewiev-section">
+                    <h3 class="rewiev-title">СНТ «Шугарово-5» Каркасный дом 115 м2</h3>
+                    <p class="rewiev">
+                        Приносим огромную благодарность за супер
+                        строительство, отличную бригаду строителей,
+                        за шикарные окна, замечательные строительные
+                        материалы. Все произошло быстро, аккуратно,
+                        правильно (а мы боялись). Обязательно
+                        обратимся к вам за строительством бани, 
+                        желательно с этой же бригадой.
+                        Спасибо большое, успехов вам в дальнейшей
+                        работе. Спасибо Вадиму за хорошую консультацию, 
+                        от хорошего консультанта много зависит. 
+                    </p>
+                    <p class="rewiev-autor">Светлана и Михаил</p>
+                </div>
+            </div>
+            <div class="rewiev-section-card">
+                <div class="rewiev-section">
+                    <h3 class="rewiev-title">СНТ «Шугарово-5» Каркасный дом 115 м2</h3>
+                    <p class="rewiev">
+                        Приносим огромную благодарность за супер
+                        строительство, отличную бригаду строителей,
+                        за шикарные окна, замечательные строительные
+                        материалы. Все произошло быстро, аккуратно,
+                        правильно (а мы боялись). Обязательно
+                        обратимся к вам за строительством бани, 
+                        желательно с этой же бригадой.
+                        Спасибо большое, успехов вам в дальнейшей
+                        работе. Спасибо Вадиму за хорошую консультацию, 
+                        от хорошего консультанта много зависит. 
+                    </p>
+                    <p class="rewiev-autor">Светлана и Михаил</p>
+                </div>
+            </div>
+            <div class="rewiev-section-card">
+                <div class="rewiev-section">
+                    <h3 class="rewiev-title">СНТ «Шугарово-5» Каркасный дом 115 м2</h3>
+                    <p class="rewiev">
+                        Приносим огромную благодарность за супер
+                        строительство, отличную бригаду строителей,
+                        за шикарные окна, замечательные строительные
+                        материалы. Все произошло быстро, аккуратно,
+                        правильно (а мы боялись). Обязательно
+                        обратимся к вам за строительством бани, 
+                        желательно с этой же бригадой.
+                        Спасибо большое, успехов вам в дальнейшей
+                        работе. Спасибо Вадиму за хорошую консультацию, 
+                        от хорошего консультанта много зависит. 
+                    </p>
+                    <p class="rewiev-autor">Светлана и Михаил</p>
+                </div>
+            </div>
+            <div class="rewiev-section-card">
+                <div class="rewiev-section">
+                    <h3 class="rewiev-title">СНТ «Шугарово-5» Каркасный дом 115 м2</h3>
+                    <p class="rewiev">
+                        Приносим огромную благодарность за супер
+                        строительство, отличную бригаду строителей,
+                        за шикарные окна, замечательные строительные
+                        материалы. Все произошло быстро, аккуратно,
+                        правильно (а мы боялись). Обязательно
+                        обратимся к вам за строительством бани, 
+                        желательно с этой же бригадой.
+                        Спасибо большое, успехов вам в дальнейшей
+                        работе. Спасибо Вадиму за хорошую консультацию, 
+                        от хорошего консультанта много зависит. 
+                    </p>
+                    <p class="rewiev-autor">Светлана и Михаил</p>
+                </div>
+            </div>
+            <div class="rewiev-section-card">
+                <div class="rewiev-section">
+                    <h3 class="rewiev-title">СНТ «Шугарово-5» Каркасный дом 115 м2</h3>
+                    <p class="rewiev">
+                        Приносим огромную благодарность за супер
+                        строительство, отличную бригаду строителей,
+                        за шикарные окна, замечательные строительные
+                        материалы. Все произошло быстро, аккуратно,
+                        правильно (а мы боялись). Обязательно
+                        обратимся к вам за строительством бани, 
+                        желательно с этой же бригадой.
+                        Спасибо большое, успехов вам в дальнейшей
+                        работе. Спасибо Вадиму за хорошую консультацию, 
+                        от хорошего консультанта много зависит. 
+                    </p>
+                    <p class="rewiev-autor">Светлана и Михаил</p>
+                </div>
+            </div>
+            <div class="rewiev-section-card">
+                <div class="rewiev-section">
+                    <h3 class="rewiev-title">СНТ «Шугарово-5» Каркасный дом 115 м2</h3>
+                    <p class="rewiev">
+                        Приносим огромную благодарность за супер
+                        строительство, отличную бригаду строителей,
+                        за шикарные окна, замечательные строительные
+                        материалы. Все произошло быстро, аккуратно,
+                        правильно (а мы боялись). Обязательно
+                        обратимся к вам за строительством бани, 
+                        желательно с этой же бригадой.
+                        Спасибо большое, успехов вам в дальнейшей
+                        работе. Спасибо Вадиму за хорошую консультацию, 
+                        от хорошего консультанта много зависит. 
+                    </p>
+                    <p class="rewiev-autor">Светлана и Михаил</p>
+                </div>
+            </div>
+            <div class="rewiev-section-card">
+                <div class="rewiev-section">
+                    <h3 class="rewiev-title">СНТ «Шугарово-5» Каркасный дом 115 м2</h3>
+                    <p class="rewiev">
+                        Приносим огромную благодарность за супер
+                        строительство, отличную бригаду строителей,
+                        за шикарные окна, замечательные строительные
+                        материалы. Все произошло быстро, аккуратно,
+                        правильно (а мы боялись). Обязательно
+                        обратимся к вам за строительством бани, 
+                        желательно с этой же бригадой.
+                        Спасибо большое, успехов вам в дальнейшей
+                        работе. Спасибо Вадиму за хорошую консультацию, 
+                        от хорошего консультанта много зависит. 
+                    </p>
+                    <p class="rewiev-autor">Светлана и Михаил</p>
+                </div>
+            </div>
+            
+
+          </div>
+        </div>
+        
+        <div class="map">
+          <button class="active first"></button>
+          <button class="second"></button>
+          <button class="third"></button>
+        </div>
+      </div>
+
+
+    <script src="java.js"></script>
+</body>
+</html>

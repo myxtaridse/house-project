@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.nav {
+    padding-top: 20px;
+    background-color: rgb(8, 42, 26);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.logo-link {
+    margin: 20px 0;
+    max-width: 300px;
+}
+.logo-img {
+    width: 100%;
+}
+hr {
+    border-color: rgba(147, 127, 111, .3);
+    width: 100%;
+    border-width: .03px 0 0 .03px;
+    border-style: solid;
+}
+.phone-container {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 244, 222);
+    font-weight: 600;
+    font-size: 18px;
+    column-gap: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.phone-container:hover {
+    color: rgb(169, 133, 103);
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+    padding-left: 45px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+.nav-link:hover {
+    color: rgb(255, 244, 222);
+}
+
+.search-container {
+    margin: 10px 0 0;
+    position: relative;
+}
+
+.search-input {
+    background-color: transparent;
+    font-size:18px;
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid rgba(169, 133, 103, .5);
+    border-radius: 5px;
+    color: rgb(169, 133, 103);
+}
+.search-input::placeholder {
+    color: rgb(169, 133, 103);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+.search-btn {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    color: rgb(169, 133, 103);
+    cursor: pointer;
+}
+.lypa {
+    font-size: 22px;
+}
+.lypa:hover {
+    color: rgb(255, 244, 222);
+}
+.order-btn {
+    background-color: rgba(169, 133, 103, .3);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 85%;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(169, 133, 103);
+    font-weight: 600;
+    cursor: pointer;
+}
+.order-btn:hover {
+    background-color: rgba(174, 128, 92, 0.892);
+    color: rgb(255, 244, 222);
+}
+
+.social-container {
+    color: rgb(169, 133, 103);
+    font-size: 28px;
+    margin: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+.social-link:hover {
+    color: rgb(255, 244, 222);
+}
+.ri-vk-line {
+    font-size: 32px;
+}
+.ri-facebook-circle-line {
+    font-size: 30px;
+}
+.docs-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+.document-link {
+    font-size: 12px;
+}
+.document-link:hover {
+    color: rgb(255, 244, 222);
+}
