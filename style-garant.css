@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.garants {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 150px;
+}
+.garant-title-container {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.garant-title {
+    font-size: 44px;
+}
+.garant-grid-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    gap: 70px;
+    font-size: 18px;
+    align-items: start;
+}
+.garant-section-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    row-gap: 15px;
+}
+.garant-grid-title {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.garant-right-section {
+    position: relative;
+}
+.garant-img-container {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+    width: 85%;
+}
+.garant-img-title {
+    font-size: 28px;
+}

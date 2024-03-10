@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.main {
+    margin-left: 15%;
+} 
+
+/*////////////////////////////*/
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 65% 35%);
+}
+.head-img {
+    height: 100%;
+}
+.head-text {
+    background-color: rgb(21, 116, 53);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    row-gap: 30px;
+    padding: 40px 40px 100px 30px;
+}
+.head-title {
+    font-size: 46px;
+    font-weight: 400;
+    text-shadow: .5px .5px 2px rgb(211, 211, 211);
+}
+.head-subtitle {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.head-line {
+    background-color: var(--light-beige);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    column-gap: 180px;
+}
+.line-section {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    row-gap: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+@media (max-width: 1840px) {
+
+}

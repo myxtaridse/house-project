@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.rewievs {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rewievs-top-container {
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rewievs-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 20px;
+}
+.rewievs-title {
+    font-size: 44px;
+}
+.wrapper {
+    margin-top: 60px;
+    display: flex;
+    grid-gap: 1em;
+    overflow: hidden;
+    width: 88%;
+}
+.wrapper > .inner {
+    display: flex;
+    grid-gap: 1em;
+    transition: all 1s ease-in-out;
+}
+.rewiev-section-card {
+    width: 400px;
+    min-height: 400px;
+}
+.rewievs-main {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    align-items: start;
+    justify-content: center;
+    column-gap: 80px;
+}
+.rewiev-section {
+    box-shadow: 1px 1px 5px rgba(8, 42, 26, 0.359);
+    padding: 40px 30px;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 10px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.rewiev-title {
+    text-align: center;
+}
+.rewiev-autor {
+    font-weight: 500;
+}
+
+.map {
+margin-top: 1em;
+}
+.map > button {
+all: unset;
+background: rgba(110, 208, 115, 0.553);
+cursor: pointer;
+margin: 0 0.125em;
+position: relative;
+border-radius: 10px;
+height: 1em;
+width: 1em;
+}
+.map > button.active {
+background: var(--green);
+}

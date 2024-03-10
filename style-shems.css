@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.shems-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+}
+.shema-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+    border-bottom: 1px solid var(--border-light-grey);
+    padding: 20px 0;
+}
+.shema-section:not(.shema-section-4) {
+    border-right: 1px solid var(--border-light-grey);
+}
+.shema-img {
+    height: 250px;
+}
+.shema-title {
+    font-weight: 500;
+    font-size: 26px;
+    margin: 10px 0;
+}
+.price {
+    background-color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px var(--border-grey);
+}
+.shema-btn {
+    margin: 10px 0 20px;
+}
+.green-btn {
+    padding: 15px 22px;
+    font-size: 18px;
+    color: rgb(239, 235, 222);
+    background-color: var(--light-green);
+    border: 1px solid var(--green);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 3px 3px 5px var(--border-grey);
+}

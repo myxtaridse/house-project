@@ -30,7 +30,7 @@ hr {
 .phone-container {
     display: flex;
     align-items: center;
-    color: rgb(255, 244, 222);
+    color: var(--light-beige);
     font-weight: 600;
     font-size: 18px;
     column-gap: 10px;
@@ -38,7 +38,7 @@ hr {
     cursor: pointer;
 }
 .phone-container:hover {
-    color: rgb(169, 133, 103);
+    color: var(--beige);
 }
 
 .navigation-container {
@@ -52,70 +52,81 @@ hr {
     margin: 0 0 20px 0;
 }
 .nav-link:hover {
-    color: rgb(255, 244, 222);
+    color: var(--light-beige);
+}
+
+.search-and-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
 }
 
 .search-container {
     margin: 10px 0 0;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .search-input {
     background-color: transparent;
-    font-size:18px;
-    width: 100%;
+    font-size: 18px;
+    width: 90%;
     height: 50px;
-    padding-left: 15px;
+    padding-left: 20px;
     border: 1px solid rgba(169, 133, 103, .5);
     border-radius: 5px;
-    color: rgb(169, 133, 103);
+    color: var(--beige);
 }
 .search-input::placeholder {
-    color: rgb(169, 133, 103);
+    color: var(--beige);
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
 }
 .search-btn {
     position: absolute;
     top: 12px;
-    right: 20px;
+    right: 25px;
     background-color: transparent;
     border: none;
-    color: rgb(169, 133, 103);
+    color: var(--beige);
     cursor: pointer;
 }
 .lypa {
     font-size: 22px;
 }
 .lypa:hover {
-    color: rgb(255, 244, 222);
+    color: var(--light-beige);
 }
 .order-btn {
+    width: 90%;
     background-color: rgba(169, 133, 103, .3);
     border: none;
     border-radius: 5px;
     font-size: 15px;
-    width: 85%;
     height: 50px;
     font-family: "Montserrat", sans-serif;
-    color: rgb(169, 133, 103);
+    color: var(--beige);
     font-weight: 600;
     cursor: pointer;
 }
 .order-btn:hover {
     background-color: rgba(174, 128, 92, 0.892);
-    color: rgb(255, 244, 222);
+    color: var(--light-beige);
 }
 
 .social-container {
-    color: rgb(169, 133, 103);
+    color: var(--beige);
     font-size: 28px;
-    margin: 20px;
+    margin: 20px auto 10px auto;
     display: flex;
     column-gap: 20px;
 }
 .social-link:hover {
-    color: rgb(255, 244, 222);
+    color: var(--light-beige);
 }
 .ri-vk-line {
     font-size: 32px;
@@ -124,7 +135,7 @@ hr {
     font-size: 30px;
 }
 .docs-container {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,5 +146,107 @@ hr {
     font-size: 12px;
 }
 .document-link:hover {
-    color: rgb(255, 244, 222);
+    color: var(--light-beige);
+}
+
+@media (max-width: 1600px) {
+    .logo-img {
+        width: 170px;
+    }
+    .phone-container {
+        font-size: 16px;
+        column-gap: 10px;
+        margin: 20px 0;
+    }
+    .navigation-container {
+        row-gap: 15px;
+        padding-left: 45px;
+        font-size: 16px;
+        margin: 0 0 20px 0;
+    }
+    .search-input {
+        font-size: 16px;
+        width: 85%;
+        height: 45px;
+        padding-left: 20px;
+    }
+    .search-input::placeholder {
+        font-size: 14px;
+    }
+    .search-btn {
+        top: 13px;
+        right: 32px;
+    }
+    .lypa {
+        font-size: 18px;
+    }
+    .order-btn {
+        width: 85%;
+        font-size: 14px;
+        height: 45px;
+    }
+    .social-container {
+        font-size: 24px;
+        column-gap: 12px;
+    }
+    .ri-vk-line {
+        font-size: 27px;
+    }
+    .ri-facebook-circle-line {
+        font-size: 25px;
+    }
+    .document-link {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    /*.logo-img {
+        width: 170px;
+    }
+    .phone-container {
+        font-size: 16px;
+        column-gap: 10px;
+        margin: 20px 0;
+    }
+    .navigation-container {
+        row-gap: 15px;
+        padding-left: 45px;
+        font-size: 16px;
+        margin: 0 0 20px 0;
+    }
+    .search-input {
+        font-size: 16px;
+        width: 85%;
+        height: 45px;
+        padding-left: 20px;
+    }
+    .search-input::placeholder {
+        font-size: 14px;
+    }
+    .search-btn {
+        top: 13px;
+        right: 32px;
+    }
+    .lypa {
+        font-size: 18px;
+    }
+    .order-btn {
+        width: 85%;
+        font-size: 14px;
+        height: 45px;
+    }
+    .social-container {
+        font-size: 24px;
+        column-gap: 12px;
+    }
+    .ri-vk-line {
+        font-size: 27px;
+    }
+    .ri-facebook-circle-line {
+        font-size: 25px;
+    }
+    .document-link {
+        font-size: 10px;
+    }*/
 }
