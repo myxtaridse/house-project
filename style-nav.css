@@ -5,6 +5,7 @@
 }
 .nav-toggle,
 .nav-close {
+    z-index: 10;
     display: none;
     position: absolute;
     top: 0;
