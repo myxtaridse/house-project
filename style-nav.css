@@ -490,7 +490,7 @@ hr {
         max-width: 300px;
     }
     .logo-img {
-        width: 50%;
+        width: 60%;
         align-self: center;
     }
     .phone-container {
@@ -500,12 +500,12 @@ hr {
     }
     
     .navigation-container {
-        row-gap: 10px;
+        row-gap: 15px;
         width: 100%;
         padding-left: 20%;
         font-weight: 600;
         font-size: 12px;
-        margin: 0 0 10px 0;
+        margin: 10px 0 10px 0;
     }
     
     .search-and-btn {
@@ -522,7 +522,7 @@ hr {
     
     .search-input {
         font-size: 10px;
-        width: 100%;
+        width: 110%;
         height: 30px;
         padding-left: 10px;
     }
@@ -538,23 +538,23 @@ hr {
         font-size: 12px;
     }
     .order-btn {
-        width: 100%;
+        width: 110%;
         font-size: 10px;
         height: 30px;
         font-weight: 600;
     }
     
     .social-container {
-        font-size: 18px;
+        font-size: 20px;
         margin: 10px auto 5px auto;
         display: flex;
         column-gap: 8px;
     }
     .ri-vk-line {
-        font-size: 20px;
+        font-size: 21px;
     }
     .ri-facebook-circle-line {
-        font-size: 18px;
+        font-size: 23px;
     }
     .docs-container {
         margin-top: 10px;
