@@ -59,6 +59,9 @@ hr {
     margin: 20px 0;
     cursor: pointer;
 }
+.ri-phone-fill {
+    color: rgb(222, 214, 197);
+}
 .phone-container:hover {
     color: var(--beige);
 }
