@@ -17,15 +17,9 @@
     justify-content: space-evenly;
     padding: 40px;
 }
-.project-title {
-    font-weight: 600;
-    font-size: 22px;
-    text-align: center;
-    width: 400px;
-}
 .project-info-container {
-    width: 50%;
-    padding-left: 120px;
+    padding: 20px;
+    margin: 40px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -33,7 +27,18 @@
     row-gap: 20px;
     font-size: 22px;
 }
-.project-food {
+.project-title {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    width: 90%;
+}
+.project-character {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+.project-foot {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,10 +49,10 @@
     position: relative;
 }
 .project-img-container {
-    width: 90%;
+    width: 80%;
 }
 .project-house-img-1 {
-    width: 850px;
+    max-width: 850px;
 }
 
 .slide {
@@ -75,7 +80,6 @@
 }
 .arrow-container-left {
     left: 20px;
-
 }
 .arrow-container-right {
     right: 20px;
@@ -101,4 +105,58 @@
 
 .last-project-section {
     border-bottom: 1px solid rgba(187, 187, 187, 0.421);
+}
+
+
+@media (max-width: 1670px) {
+    .project-section {
+        column-gap: 60px;
+    }
+    .project-info-container {
+        width: 50%;
+        padding-left: 80px;
+    }
+    .project-title {
+        font-size: 20px;
+        width: 350px;
+    }
+    .project-character {
+        row-gap: 7px;
+        font-size: 16px;
+    }
+
+    .project-house-img-1 {
+        width: 700px;
+    }
+    .arrow-project {
+        font-size: 24px;
+    }
+    .project-page {
+        row-gap: 3px;
+    }
+    .page-img {
+        width: 45px;
+    }
+    .page {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .project-section {
+        column-gap: 40px;
+    }
+    .project-info-container {
+        width: 40%;
+        padding-left: 60px;
+    }
+    .project-house-img-1 {
+        width: 580px;
+    }
+    .page-img {
+        width: 35px;
+    }
+    .page {
+        font-size: 16px;
+    }
 }

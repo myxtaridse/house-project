@@ -1,4 +1,4 @@
-const buttonsWrapper = document.querySelector(".map");
+/*const buttonsWrapper = document.querySelector(".map");
 const slides = document.querySelector(".inner");
 
 buttonsWrapper.addEventListener("click", e => {
@@ -18,3 +18,18 @@ buttonsWrapper.addEventListener("click", e => {
     }
   }
 });
+*/
+
+
+const navMenu = document.getElementById('nav'),
+      navToggle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close');
+
+navToggle.addEventListener('click', () => {
+    navMenu.style.display = 'block';
+    navToggle.style.display = 'none';
+})
+navClose.addEventListener('click', () => {
+    navMenu.style.display = 'none';
+    navToggle.style.display = 'block';
+})

@@ -18,7 +18,7 @@
     border-right: 1px solid var(--border-light-grey);
 }
 .shema-img {
-    height: 250px;
+    height: 240px;
 }
 .shema-title {
     font-weight: 500;
@@ -46,4 +46,129 @@
     border-radius: 5px;
     font-family: "Montserrat", sans-serif;
     box-shadow: 3px 3px 5px var(--border-grey);
+}
+
+@media (max-width: 1600px) {
+    .shema-img {
+        height: 200px;
+    }
+    .shema-title {
+        font-size: 22px;
+    }
+    .price {
+        font-size: 16px;
+    }
+    .shema-btn {
+        margin: 10px 0 20px;
+    }
+    .green-btn {
+        padding: 15px 22px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .shema-img {
+        height: 170px;
+    }
+    .shema-title {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .price {
+        padding: 15px 25px;
+        font-size: 14px;
+    }
+    .shema-btn {
+        margin: 10px 0 20px;
+    }
+    .green-btn {
+        padding: 15px 22px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .shems-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+    .shema-section.shema-section:not(.shema-section-4) {
+        border-right: none;
+    }
+    .shema-section {
+        border: none;
+    }
+    .shema-section-1,
+    .shema-section-2 {
+        border-bottom: 1px solid var(--border-light-grey);
+    }
+    .shema-section-2,
+    .shema-section-4 {
+        border-left: 1px solid var(--border-light-grey);
+    }
+}
+
+@media (max-width: 900px) {
+    .shema-img {
+        height: 120px;
+    }
+    .shema-title {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .price {
+        padding: 15px 25px;
+        font-size: 12px;
+    }
+    .shema-btn {
+        margin: 10px 0 20px;
+    }
+    .green-btn {
+        padding: 15px 22px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    .shema-img {
+        height: 120px;
+    }
+    .shema-title {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .price {
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+    .shema-btn {
+        margin: 10px 0 20px;
+    }
+    .green-btn {
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .shema-img {
+        height: 100px;
+    }
+    .shema-title {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+    .price {
+        padding: 7px 12px;
+        font-size: 8px;
+    }
+    .shema-btn {
+        margin: 10px 0 20px;
+    }
+    .green-btn {
+        padding: 7px 12px;
+        font-size: 8px;
+    }
 }
