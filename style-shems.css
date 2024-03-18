@@ -154,21 +154,21 @@
 
 @media (max-width: 500px) {
     .shema-img {
-        height: 100px;
+        height: 150px;
     }
     .shema-title {
-        font-size: 12px;
+        font-size: 16px;
         margin: 5px 0;
     }
     .price {
         padding: 7px 12px;
-        font-size: 8px;
+        font-size: 10px;
     }
     .shema-btn {
         margin: 10px 0 20px;
     }
     .green-btn {
         padding: 7px 12px;
-        font-size: 8px;
+        font-size: 10px;
     }
 }

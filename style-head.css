@@ -184,20 +184,20 @@
         padding: 30px 10px;
     }
     .head-title {
-        font-size: 14px;
+        font-size: 16px;
     }
     .head-subtitle {
-        font-size: 6px;
+        font-size: 8px;
     }
     
     .head-line {
         column-gap: 40px;
     }
     .line-section {
-        font-size: 8px;
+        font-size: 10px;
         width: 90px;
     }
     .line-img {
-        width: 16px;
+        width: 18px;
     }
 }
