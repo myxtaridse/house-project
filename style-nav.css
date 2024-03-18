@@ -469,3 +469,98 @@ hr {
         color: var(--light-beige);
     }
 }
+
+
+@media (max-width: 500px) {
+    #nav {
+        display: none;
+    }
+    .nav-toggle,
+    .nav-close {
+        display: inline-block;
+    }
+    .nav {
+        padding-top: 10px;
+        width: 60%;
+        height: 100%;
+        row-gap: 10px;
+    }
+    .logo-link {
+        margin: 10px 0;
+        max-width: 300px;
+    }
+    .logo-img {
+        width: 50%;
+        align-self: center;
+    }
+    .phone-container {
+        font-size: 14px;
+        column-gap: 10px;
+        margin: 10px 0;
+    }
+    
+    .navigation-container {
+        row-gap: 10px;
+        width: 100%;
+        padding-left: 20%;
+        font-weight: 600;
+        font-size: 10px;
+        margin: 0 0 10px 0;
+    }
+    
+    .search-and-btn {
+        row-gap: 10px;
+    }
+    
+    .search-container {
+        margin: 10px 0 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .search-input {
+        font-size: 10px;
+        width: 90%;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .search-input::placeholder {
+        font-size: 10px;
+    }
+    .search-btn {
+        position: absolute;
+        top: 12px;
+        right: 25px;
+    }
+    .lypa {
+        font-size: 12px;
+    }
+    .order-btn {
+        width: 90%;
+        font-size: 10px;
+        height: 30px;
+        font-weight: 600;
+    }
+    
+    .social-container {
+        font-size: 16px;
+        margin: 10px auto 5px auto;
+        display: flex;
+        column-gap: 8px;
+    }
+    .ri-vk-line {
+        font-size: 16px;
+    }
+    .ri-facebook-circle-line {
+        font-size: 16px;
+    }
+    .docs-container {
+        margin-top: 10px;
+        row-gap: 10px;
+    }
+    .document-link {
+        font-size: 6px;
+    }
+}
