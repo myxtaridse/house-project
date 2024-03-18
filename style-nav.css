@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.nav-container {
-    position: relative;
-}
+
 .nav-toggle,
 .nav-close {
     z-index: 10;
     display: none;
-    position: absolute;
     top: 0;
     position: fixed;
     background-color: var(--light-beige);
@@ -16,6 +13,7 @@
     margin: 10px;
 }
 .nav-close {
+    position: absolute;
     right: 0;
     padding: 6px 8px;
 }
@@ -188,7 +186,6 @@ hr {
     }
     .phone-container {
         font-size: 16px;
-        column-gap: 10px;
         margin: 10px 0;
     }
     .navigation-container {
@@ -201,7 +198,6 @@ hr {
         font-size: 16px;
         width: 85%;
         height: 40px;
-        padding-left: 20px;
     }
     .search-input::placeholder {
         font-size: 14px;
@@ -236,38 +232,24 @@ hr {
 
 @media (max-width: 1300px) {
     .nav {
-        padding-top: 20px;
-        background-color: rgb(8, 42, 26);
-        position: fixed;
-        left: 0;
-        top: 0;
         width: 20%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 20px;
     }
     .logo-img {
         width: 100px;
     }
     .phone-container {
         font-size: 14px;
-        column-gap: 10px;
-        margin: 20px 0;
     }
     .navigation-container {
         font-weight: 600;
         row-gap: 15px;
         padding-left: 20%;
         font-size: 14px;
-        margin: 0 0 20px 0;
     }
     .search-input {
         font-size: 14px;
         width: 85%;
         height: 45px;
-        padding-left: 20px;
     }
     .search-input::placeholder {
         font-size: 13px;
@@ -307,167 +289,12 @@ hr {
     .nav-close {
         display: inline-block;
     }
-    .nav-close {
-        position: absolute;
-        right: 0;
-        padding: 6px 8px;
-    }
-    .ri-menu-2-line,
-    .ri-close-line {
-        color: black;
-        font-weight: bold;
-        font-size: 14px;
-    }
     .nav {
-        padding-top: 20px;
-        background-color: rgb(8, 42, 26);
-        position: fixed;
-        left: 0;
-        top: 0;
         width: 40%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 20px;
-    }
-    .logo-link {
-        margin: 20px 0;
-        max-width: 300px;
     }
     .logo-img {
         width: 80%;
         align-self: center;
-    }
-    hr {
-        border-color: rgba(147, 127, 111, .3);
-        width: 100%;
-        border-width: .03px 0 0 .03px;
-        border-style: solid;
-    }
-    .phone-container {
-        display: flex;
-        align-items: center;
-        color: var(--light-beige);
-        font-weight: 600;
-        font-size: 18px;
-        column-gap: 10px;
-        margin: 20px 0;
-        cursor: pointer;
-    }
-    .phone-container:hover {
-        color: var(--beige);
-    }
-    
-    .navigation-container {
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-        width: 100%;
-        padding-left: 45px;
-        font-weight: 700;
-        font-size: 18px;
-        margin: 0 0 20px 0;
-    }
-    .nav-link {
-        color: var(--beige);
-    }
-    .nav-link:hover {
-        color: var(--light-beige);
-    }
-    
-    .search-and-btn {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        row-gap: 15px;
-    }
-    
-    .search-container {
-        margin: 10px 0 0;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .search-input {
-        background-color: transparent;
-        font-size: 18px;
-        width: 90%;
-        height: 50px;
-        padding-left: 20px;
-        border: 1px solid rgba(169, 133, 103, .5);
-        border-radius: 5px;
-        color: var(--beige);
-    }
-    .search-input::placeholder {
-        color: var(--beige);
-        font-family: "Montserrat", sans-serif;
-        font-size: 16px;
-    }
-    .search-btn {
-        position: absolute;
-        top: 12px;
-        right: 25px;
-        background-color: transparent;
-        border: none;
-        color: var(--beige);
-        cursor: pointer;
-    }
-    .lypa {
-        font-size: 22px;
-    }
-    .lypa:hover {
-        color: var(--light-beige);
-    }
-    .order-btn {
-        width: 90%;
-        background-color: rgba(169, 133, 103, .3);
-        border: none;
-        border-radius: 5px;
-        font-size: 15px;
-        height: 50px;
-        font-family: "Montserrat", sans-serif;
-        color: var(--beige);
-        font-weight: 600;
-        cursor: pointer;
-    }
-    .order-btn:hover {
-        background-color: rgba(174, 128, 92, 0.892);
-        color: var(--light-beige);
-    }
-    
-    .social-container {
-        color: var(--beige);
-        font-size: 28px;
-        margin: 20px auto 10px auto;
-        display: flex;
-        column-gap: 20px;
-    }
-    .social-link:hover {
-        color: var(--light-beige);
-    }
-    .ri-vk-line {
-        font-size: 32px;
-    }
-    .ri-facebook-circle-line {
-        font-size: 30px;
-    }
-    .docs-container {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        row-gap: 10px;
-    }
-    .document-link {
-        font-size: 12px;
-    }
-    .document-link:hover {
-        color: var(--light-beige);
     }
 }
 
@@ -483,12 +310,7 @@ hr {
     .nav {
         padding-top: 10px;
         width: 60%;
-        height: 100%;
         row-gap: 10px;
-    }
-    .logo-link {
-        margin: 10px 0;
-        max-width: 300px;
     }
     .logo-img {
         width: 60%;
@@ -496,13 +318,11 @@ hr {
     }
     .phone-container {
         font-size: 14px;
-        column-gap: 10px;
         margin: 10px 0;
     }
     
     .navigation-container {
         row-gap: 15px;
-        width: 100%;
         padding-left: 20%;
         font-weight: 600;
         font-size: 12px;
@@ -511,14 +331,6 @@ hr {
     
     .search-and-btn {
         row-gap: 10px;
-    }
-    
-    .search-container {
-        margin: 10px 0 0;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     
     .search-input {
@@ -531,7 +343,6 @@ hr {
         font-size: 10px;
     }
     .search-btn {
-        position: absolute;
         top: 8px;
         right: 18px;
     }
@@ -542,13 +353,11 @@ hr {
         width: 110%;
         font-size: 10px;
         height: 35px;
-        font-weight: 600;
     }
     
     .social-container {
         font-size: 20px;
         margin: 10px auto 5px auto;
-        display: flex;
         column-gap: 8px;
     }
     .ri-vk-line {
@@ -556,10 +365,6 @@ hr {
     }
     .ri-facebook-circle-line {
         font-size: 22px;
-    }
-    .docs-container {
-        margin-top: 10px;
-        row-gap: 10px;
     }
     .document-link {
         font-size: 8px;

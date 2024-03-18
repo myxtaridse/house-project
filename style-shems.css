@@ -58,11 +58,7 @@
     .price {
         font-size: 16px;
     }
-    .shema-btn {
-        margin: 10px 0 20px;
-    }
     .green-btn {
-        padding: 15px 22px;
         font-size: 16px;
     }
 }
@@ -73,26 +69,18 @@
     }
     .shema-title {
         font-size: 20px;
-        margin: 10px 0;
     }
     .price {
-        padding: 15px 25px;
         font-size: 14px;
     }
-    .shema-btn {
-        margin: 10px 0 20px;
-    }
     .green-btn {
-        padding: 15px 22px;
         font-size: 14px;
     }
 }
 
 @media (max-width: 1100px) {
     .shems-grid {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: 20px;
     }
     .shema-section.shema-section:not(.shema-section-4) {
         border-right: none;
@@ -116,17 +104,11 @@
     }
     .shema-title {
         font-size: 16px;
-        margin: 10px 0;
     }
     .price {
-        padding: 15px 25px;
         font-size: 12px;
     }
-    .shema-btn {
-        margin: 10px 0 20px;
-    }
     .green-btn {
-        padding: 15px 22px;
         font-size: 12px;
     }
 }
@@ -160,13 +142,7 @@
         font-size: 12px;
         margin: 5px 0;
     }
-    .price {
-        padding: 7px 12px;
-        font-size: 10px;
-    }
-    .shema-btn {
-        margin: 10px 0 20px;
-    }
+    .price,
     .green-btn {
         padding: 7px 12px;
         font-size: 10px;
