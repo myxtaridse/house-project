@@ -35,14 +35,10 @@ navClose.addEventListener('click', () => {
 })
 
 /*
-const mediaQuery = window.matchMedia('(max-width: 768px)');
 
-if (mediaQuery.matches) {
-  document.getElementById('head-img-container').innerHTML = `<img src="./img/mobile-img-head.jpg" alt="" class="head-img">`;
-}*/
 
 const mediaQuery = window.matchMedia('(max-width: 800px)')
 if (mediaQuery.matches) {
   document.getElementById('head-img-container').innerHTML = `<img src="./img/mobile-img-head.jpeg" alt="" class="head-img">`;
-  
-}
+
+}*/

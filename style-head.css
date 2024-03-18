@@ -158,27 +158,25 @@
     .header {
         display: flex;
         flex-direction: column;
-        position: relative;
     }
     .head-img-container {
         width: 100%;
+        height: 100%;
     }
     .head-img {
         width: 100%;
         height: 100%;
     }
     .head-text {
-        position: absolute;
-        bottom: 80px;
-        right: 0;
-        background-color: rgba(21, 116, 53, 0.864);
+        margin-top: -20px;
+        background-color: rgb(21, 116, 53);
         color: var(--white);
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         justify-content: center;
         row-gap: 20px;
-        width: 65%;
+        width: 100%;
         padding: 30px 50px;
     }
     .head-title {
@@ -187,7 +185,7 @@
         text-shadow: .5px .5px 2px rgb(211, 211, 211);
     }
     .head-subtitle {
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 200;
     }
 
