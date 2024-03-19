@@ -36,7 +36,7 @@
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
-    object-fit: cover;
+    overflow-y: auto;
 }
 .logo-link {
     margin: 20px 0;

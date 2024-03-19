@@ -152,3 +152,22 @@
         font-size: 13px;
     }
 }
+
+@media (max-width: 400px) {
+    .shema-img {
+        height: 100px;
+    }
+    .shema-title {
+        font-size: 13px;
+        margin: 5px 0;
+    }
+    .price {
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+    .green-btn {
+        width: 120px;
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+}

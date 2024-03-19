@@ -167,7 +167,7 @@
     }
     .project-info-container {
         width: 40%;
-        padding-left: 60px;
+        padding-left: 20px;
     }
     .project-house-img-1 {
         width: 450px;
@@ -180,7 +180,7 @@
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
     .projects {
         margin: 40px auto;
     }
@@ -592,7 +592,7 @@
         font-size: 11px;
     }
 }
-/*
+
 @media (max-width: 400px) {
     .projects-title {
         margin: 20px auto;
@@ -618,17 +618,17 @@
         top: 0;
         position: absolute;
         font-weight: 600;
-        font-size: 15px;
+        font-size: 14px;
         text-align: center;
-        width: 60%;
+        width: 70%;
         padding: 0;
     }
     .project-character {
-        padding: 60px 100px 10px 0;
+        padding: 50px 80px 10px 0;
         display: flex;
         flex-direction: column;
         row-gap: 7px;
-        font-size: 12px;
+        font-size: 11px;
     }
     .project-foot {
         display: flex;
@@ -649,9 +649,9 @@
     }
     .arrow-container {
         position: absolute;
-        bottom: 20px;
+        bottom: 15px;
         background-color: rgb(239, 235, 222);
-        padding: 6px;
+        padding: 6px 8px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -671,8 +671,8 @@
     }
     .section-page {
         position: absolute;
-        bottom: -40px;
-        right: -45px;
+        bottom: -50px;
+        right: -25px;
         width: 100%;
         display: flex;
         align-items: end;
@@ -693,4 +693,4 @@
         font-weight: 400;
         font-size: 11px;
     }
-}*/
+}
