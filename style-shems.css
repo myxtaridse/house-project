@@ -123,14 +123,14 @@
     }
     .price {
         padding: 10px 15px;
-        font-size: 12px;
+        font-size: 13px;
     }
     .shema-btn {
         margin: 10px 0 20px;
     }
     .green-btn {
         padding: 10px 15px;
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
@@ -139,12 +139,12 @@
         height: 120px;
     }
     .shema-title {
-        font-size: 12px;
+        font-size: 13px;
         margin: 5px 0;
     }
     .price,
     .green-btn {
         padding: 7px 12px;
-        font-size: 10px;
+        font-size: 13px;
     }
 }
