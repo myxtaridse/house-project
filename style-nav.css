@@ -9,7 +9,7 @@
     position: fixed;
     background-color: var(--light-beige);
     border-radius: 5px;
-    padding: 10px 12px;
+    padding: 12px;
     margin: 20px;
 }
 .nav-close {
