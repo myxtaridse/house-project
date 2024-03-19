@@ -142,9 +142,13 @@
         font-size: 13px;
         margin: 5px 0;
     }
-    .price,
+    .price {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
     .green-btn {
-        padding: 7px 12px;
+        width: 120px;
+        padding: 8px 12px;
         font-size: 13px;
     }
 }

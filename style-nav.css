@@ -9,7 +9,7 @@
     position: fixed;
     background-color: var(--light-beige);
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 12px;
     margin: 10px;
 }
 .nav-close {
@@ -21,9 +21,10 @@
 .ri-close-line {
     color: black;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
 .nav {
+    z-index: 10;
     padding-top: 20px;
     background-color: rgb(8, 42, 26);
     position: fixed;
@@ -35,6 +36,7 @@
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+    object-fit: cover;
 }
 .logo-link {
     margin: 20px 0;

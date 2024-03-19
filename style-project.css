@@ -344,6 +344,9 @@
         padding: 40px;
         font-size: 14px;
     }
+    .project-container {
+        position: relative;
+    }
     .project-house-img-1 {
         width: 500px;
         align-self: center;
@@ -373,7 +376,7 @@
     .section-page {
         position: absolute;
         bottom: -20px;
-        right: -70px;
+        right: -60px;
         width: 100%;
         display: flex;
         align-items: end;
@@ -437,6 +440,9 @@
         padding: 0;
         font-size: 14px;
     }
+    .project-container {
+        position: relative;
+    }
     .arrow-container {
         position: absolute;
         bottom: 20px;
@@ -461,7 +467,7 @@
     }
     .section-page {
         position: absolute;
-        bottom: -30px;
+        bottom: -40px;
         right: -50px;
         width: 100%;
         display: flex;
@@ -486,6 +492,10 @@
 }
 
 @media (max-width: 550px) {
+    .projects-title {
+        margin: 20px auto;
+        font-size: 20px;
+    }
     .project-house-img-1 {
         width: 420px;
         align-self: center;
@@ -506,17 +516,17 @@
         top: 0;
         position: absolute;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 15px;
         text-align: center;
         width: 60%;
-        padding: 0 0 50px 0;
+        padding: 0;
     }
     .project-character {
-        padding: 40px 100px 10px 0;
+        padding: 60px 100px 10px 0;
         display: flex;
         flex-direction: column;
         row-gap: 7px;
-        font-size: 13px;
+        font-size: 12px;
     }
     .project-foot {
         display: flex;
@@ -531,4 +541,156 @@
         width: 320px;
         align-self: center;
     }
+
+    .project-container {
+        position: relative;
+    }
+    .arrow-container {
+        position: absolute;
+        bottom: 20px;
+        background-color: rgb(239, 235, 222);
+        padding: 6px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .arrow-container:hover {
+        background-color: rgba(163, 162, 141, 0.593);
+        color: rgb(239, 235, 222);
+    }
+    .arrow-project {
+        font-size: 13px;
+    }
+    .arrow-container-left {
+        left: 20px;
+    }
+    .arrow-container-right {
+        right: 20px;
+    }
+    .section-page {
+        position: absolute;
+        bottom: -50px;
+        right: -35px;
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .project-page {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+    .page-img {
+        width: 18px;
+    }
+    .page {
+        font-weight: 400;
+        font-size: 11px;
+    }
 }
+/*
+@media (max-width: 400px) {
+    .projects-title {
+        margin: 20px auto;
+        font-size: 18px;
+    }
+    .project-house-img-1 {
+        width: 380px;
+        align-self: center;
+    }
+    .project-info-container {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+        font-size: 14px;
+    }
+    .project-title {
+        top: 0;
+        position: absolute;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        width: 60%;
+        padding: 0;
+    }
+    .project-character {
+        padding: 60px 100px 10px 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+        font-size: 12px;
+    }
+    .project-foot {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        row-gap: 15px;
+        padding: 0;
+    }
+
+    .project-house-img-1 {
+        width: 320px;
+        align-self: center;
+    }
+
+    .project-container {
+        position: relative;
+    }
+    .arrow-container {
+        position: absolute;
+        bottom: 20px;
+        background-color: rgb(239, 235, 222);
+        padding: 6px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .arrow-container:hover {
+        background-color: rgba(163, 162, 141, 0.593);
+        color: rgb(239, 235, 222);
+    }
+    .arrow-project {
+        font-size: 13px;
+    }
+    .arrow-container-left {
+        left: 20px;
+    }
+    .arrow-container-right {
+        right: 20px;
+    }
+    .section-page {
+        position: absolute;
+        bottom: -40px;
+        right: -45px;
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .project-page {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+    .page-img {
+        width: 18px;
+    }
+    .page {
+        font-weight: 400;
+        font-size: 11px;
+    }
+}*/
